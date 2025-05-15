@@ -11,11 +11,18 @@ Signup:
 ![image](https://github.com/Chanchal896/Encrypted-Chat-Application/blob/403dab722c2b034a4a0fd86c33be04c5df0d5829/Screenshot%202025-05-15%20150651.png)
 Landing Page:
 ![image](https://github.com/Chanchal896/Encrypted-Chat-Application/blob/403dab722c2b034a4a0fd86c33be04c5df0d5829/Screenshot%202025-05-15%20150805.png)
+
 Encryption Algorithms:
+
 ![image](https://github.com/Chanchal896/Encrypted-Chat-Application/blob/403dab722c2b034a4a0fd86c33be04c5df0d5829/Screenshot%202025-05-15%20150821.png)
+
 Chat History:
+
 ![image](https://github.com/Chanchal896/Encrypted-Chat-Application/blob/403dab722c2b034a4a0fd86c33be04c5df0d5829/Screenshot%202025-05-15%20150851.png)
+
 Encrypted Text message:
+
 ![image](https://github.com/Chanchal896/Encrypted-Chat-Application/blob/403dab722c2b034a4a0fd86c33be04c5df0d5829/Screenshot%202025-05-15%20150953.png)
+
 
 
