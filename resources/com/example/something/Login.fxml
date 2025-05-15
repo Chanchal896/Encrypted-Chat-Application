@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="846.0" style="-fx-background-color: #FFFF;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.something.LoginController">
+   <Pane layoutX="-1.0" prefHeight="600.0" prefWidth="404.0" style="-fx-background-color: #3cd9b7;">
+      <children>
+         <Label layoutX="3.0" prefHeight="132.0" prefWidth="398.0" text="ENCRYPTED" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font name="Goudy Old Style Bold" size="64.0" />
+            </font>
+         </Label>
+         <ImageView fitHeight="272.0" fitWidth="266.0" layoutX="63.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../images/encrypted-3-512.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="3.0" layoutY="487.0" prefHeight="113.0" prefWidth="398.0" text="LOG IN!" textAlignment="CENTER" textFill="WHITE">
+            <font>
+               <Font name="Goudy Old Style Bold" size="64.0" />
+            </font>
+         </Label>
+      </children>
+   </Pane>
+   <AnchorPane layoutX="403.0" layoutY="135.0" prefHeight="465.0" prefWidth="443.0">
+      <children>
+          <Label fx:id="errorLabel" layoutX="115.0" layoutY="39.0" prefHeight="17.0" prefWidth="113.0" textFill="RED" />
+          <Button layoutX="136.0" layoutY="287.0" onAction="#handleLogin" prefHeight="27.0" prefWidth="83.0" text="Login" />
+      
+          <TextField fx:id="usernameField" layoutX="146.0" layoutY="199.0" prefHeight="27.0" prefWidth="165.0" promptText="Username">
+            <font>
+               <Font name="Candara Light" size="14.0" />
+            </font>
+         </TextField>
+          <PasswordField fx:id="passwordField" layoutX="146.0" layoutY="240.0" promptText="Password">
+            <font>
+               <Font name="Candara" size="14.0" />
+            </font>
+         </PasswordField>
+         <Button layoutX="237.0" layoutY="288.0" onAction="#handleSignup" prefHeight="27.0" prefWidth="83.0" text="Signup" />
+         <ImageView fitHeight="174.0" fitWidth="175.0" layoutX="135.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../images/user_icon.png" />
+            </image>
+         </ImageView>
+      </children>
+   </AnchorPane>
+   <Label layoutX="403.0" layoutY="3.0" prefHeight="132.0" prefWidth="443.0" text="CHAT" textAlignment="CENTER" textFill="#3cd9b7">
+      <font>
+         <Font name="Goudy Old Style Bold" size="64.0" />
+      </font>
+   </Label>
+</AnchorPane>
